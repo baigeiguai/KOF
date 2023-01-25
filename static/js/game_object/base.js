@@ -27,7 +27,6 @@ let GAME_OBJECT_FRAME = function(timestamp){
             object.isFirstCalled = false;
         }else{
             object.timeDelta = timestamp-LAST_TIMESTAMP;
-            // console.log(object.timeDelta)s
             object.update();
         }
     }
